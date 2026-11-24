@@ -6,7 +6,7 @@
 
 A social media marketing panel for creators, agencies, businesses and resellers.
 
-[Website](https://smmly.co) · [Product guides](https://github.com/smmly-co/docs) · [Developer & API resources](https://github.com/smmly-co/smmpanel-api)
+[Website](https://smmly.co) · [Product guides](https://github.com/smmly-co/docs) · [Reseller guides](https://github.com/smmly-co/reseller-guides) · [Creator & brand growth](https://github.com/smmly-co/social-media-growth-guides) · [Developer & API resources](https://github.com/smmly-co/smmpanel-api)
 
 </div>
 
@@ -31,7 +31,8 @@ Built for creators, agencies, digital service providers and SMM panel operators 
 
 - [Visit the SMMly website](https://smmly.co)
 - [Read product guides and FAQs](https://github.com/smmly-co/docs)
-- [Explore reseller information](https://github.com/smmly-co/docs/blob/main/resellers/overview.md)
+- [Learn how to start and operate an SMM reseller business](https://github.com/smmly-co/reseller-guides)
+- [Explore social media growth for creators and brands](https://github.com/smmly-co/social-media-growth-guides)
 - [Visit developer and API resources](https://github.com/smmly-co/smmpanel-api)
 
 <sub>Feature availability, supported services, API access and programme terms are determined by the information published through SMMly.</sub>
