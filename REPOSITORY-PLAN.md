@@ -1,49 +1,58 @@
-# SMMly GitHub repository plan
+# SMMly GitHub repository map
 
-This document is the organization-level repository map. It distinguishes existing code from proposed repositories and does not imply that planned repositories or features already exist.
+This map records the repositories that currently exist in the SMMly organization and their verified publication status.
 
-## Existing repositories
+## Organization repositories
 
-| Repository | Visibility | Role | Current status |
+| Repository | Visibility | Purpose | Current status |
 |---|---|---|---|
-| [.github](https://github.com/smmly-co/.github) | Public | Organization profile, community health, and publication guidance | Exists |
-| [aruntito/smmly](https://github.com/aruntito/smmly) | Private | Existing self-hosted PHP SMM panel | Exists outside the organization; under security and reliability remediation |
+| [smmpanel-api](https://github.com/smmly-co/smmpanel-api) | Public | API contract, reference documentation, and future client libraries | Initialized; API not released |
+| [smmpanel-telegrambot](https://github.com/smmly-co/smmpanel-telegrambot) | Public | Official Telegram integration project | Initialized; bot planned, not released |
+| [docs](https://github.com/smmly-co/docs) | Public | Product and developer documentation | Initialized; documentation being built |
+| [examples](https://github.com/smmly-co/examples) | Public | Developer integration examples | Initialized; awaiting verified API contract |
+| [.github](https://github.com/smmly-co/.github) | Public | Organization profile and community health files | Active |
 
-The private application repository must remain private unless the owner explicitly approves a separate visibility or transfer decision. It is not safe to publish the current application as a public reference implementation.
+## Application source
 
-## Target organization layout
+The existing application is [aruntito/smmly](https://github.com/aruntito/smmly), a private PHP application using PDO and MySQL/MariaDB. It remains outside the organization and must stay private unless the owner explicitly approves a transfer or mirror.
 
-| Proposed repository | Intended visibility | Purpose | Publication gate |
-|---|---|---|---|
-| smmly-panel | Private | Canonical application source, if/when the owner elects to move or mirror it into the organization | Preserve private visibility; migration/transfer requires explicit owner approval and a reviewed migration plan |
-| smmly-api | Public | Versioned API contract, reference documentation, examples, and eventually client libraries | Do not publish as a supported API until the live API contract, authentication, actions, errors, rate limits, and security controls are implemented and tested |
-| smmly-telegram-bot | Public only after release review | Official Telegram integration | Requires a real working bot, documented permissions, secure token handling, tests, and supported API integration |
-| docs | Public | Product and developer documentation safe for external users | Publish only verified behavior; clearly label unreleased capabilities |
-| smmly-examples | Public, optional | Small integration examples and starter projects | Only after the API contract is stable; no credentials or copied customer data |
+The application README identifies it as under security and reliability remediation and says it is not production-ready. The customer API entry point currently returns HTTP 503 before its older implementation. Therefore the public API repository correctly makes no claim that a supported API is currently available.
 
-## Current release blockers
+## Repository responsibilities
 
-The current private application's README marks the PHP application as under security and reliability remediation and says it is not production-ready. Its customer API entry point currently returns HTTP 503 before the older implementation, explicitly containing an unavailable API. Therefore:
+### smmpanel-api
 
-- No public API endpoint should be advertised as operational.
-- No SDK should be generated from the disabled or unverified implementation.
-- No Telegram bot should be represented as an official working integration until one exists and is tested.
-- Do not copy the private application source into a public organization repository.
-- Do not publish credentials, production configuration, customer data, or internal audit material.
+The intended source of truth for the versioned external API contract, authentication, supported actions, request and response schemas, error handling, rate limits, and eventually SDKs. Publish supported details only after implementation and verification.
 
-## Execution sequence
+### smmpanel-telegrambot
 
-1. Finish and verify application security, financial-integrity, and reliability remediation in the private source repository.
-2. Approve whether the canonical application should remain under the personal account or move to the organization as a private repository.
-3. Define and test the external API contract against the actual implementation.
-4. Publish smmly-api documentation and SDKs only after contract verification.
-5. Build and test the Telegram integration against the supported API, then publish it.
-6. Publish external documentation and examples, then pin only repositories that are real, maintained, and ready for public use.
+The home for a future official Telegram integration. It is currently a project placeholder, not a working bot. A release requires a verified API integration, secure token handling, authorization, abuse controls, tests, and setup documentation.
 
-## Organization presentation
+### docs
 
-The official SMMly symbol and wordmark supplied by the owner are the brand source of truth. The former placeholder SVG is not an approved logo and must not be used as brand artwork. Upload the official symbol as the GitHub organization avatar and use the official wordmark in the organization profile after the image assets are committed.
+The central documentation home for product, installation, administration, API, integration, security, backup, upgrade, and troubleshooting guides. Mark unreleased capabilities as planned.
 
-## Tooling limitation
+### examples
 
-The connected GitHub integration currently supports repository inspection and file/branch operations, but does not expose repository creation, organization profile settings, avatar upload, or repository pinning. Those owner-level operations must be completed through GitHub's organization interface or another authorized workflow. This limitation must not be represented as completed work.
+Small integration examples that follow the verified API contract. Do not add examples for unavailable endpoints or imply unsupported behavior.
+
+## Release and security rules
+
+- Do not publish private application source or internal audit material in public repositories.
+- Do not publish API keys, provider credentials, bot tokens, customer data, or production configuration.
+- Do not describe planned capabilities as released.
+- Do not publish endpoints, SDKs, or bot workflows until implemented, tested, reviewed, and documented.
+- Preserve established SMM V2-style conventions only where compatibility is verified against the released implementation.
+
+## Next engineering sequence
+
+1. Complete and verify the private application's security, financial-integrity, and reliability remediation.
+2. Define and test the actual external API contract.
+3. Publish verified API reference material and SDKs.
+4. Build and test the Telegram integration against that supported API.
+5. Expand docs and examples from verified product behavior.
+6. Pin repositories only when they contain maintained, useful, release-ready material.
+
+## Branding
+
+The official SMMly symbol and wordmark supplied by the owner are the brand source of truth. The former placeholder SVG was removed and must not be reused. The official symbol should be used for the GitHub organization avatar; the wordmark should be used in the organization profile once the original assets are added to the repository.
