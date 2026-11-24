@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: SMMly website
+    url: https://smmly.co
+    about: Visit the official website for product and support information.
+  - name: Security reports
+    url: https://smmly.co
+    about: Do not report security vulnerabilities in public issues. Use the contact channel published on the website.
