@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="../assets/smmly-mark.svg" width="112" alt="SMMly mark" />
-</p>
-
 <h2 align="center">SMMly</h2>
 
 <p align="center"><strong>The self-hosted SMM panel for creators, agencies and resellers.</strong><br />
