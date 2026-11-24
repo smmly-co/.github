@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">SMMly mark</title>
+  <desc id="desc">An abstract ascending growth mark with connected nodes.</desc>
+  <defs>
+    <linearGradient id="g" x1="72" y1="410" x2="432" y2="92" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset=".52" stop-color="#6d28d9"/>
+      <stop offset="1" stop-color="#c026d3"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#g)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M82 372c82 66 245 73 337-6 27-23 40-50 38-76" stroke-width="24"/>
+    <path d="M106 327V250c0-16 13-29 29-29h31c16 0 29 13 29 29v77M218 327V190c0-16 13-29 29-29h31c16 0 29 13 29 29v137M330 327V132c0-16 13-29 29-29h31c16 0 29 13 29 29v195" stroke-width="26"/>
+    <path d="m104 190 75-69 73 22 99-88" stroke-width="18"/>
+    <path d="M306 55h45v45" stroke-width="18"/>
+  </g>
+  <g fill="#0f172a" stroke="url(#g)" stroke-width="12">
+    <circle cx="78" cy="372" r="25"/>
+    <circle cx="256" cy="402" r="25"/>
+    <circle cx="434" cy="296" r="25"/>
+  </g>
+</svg>
