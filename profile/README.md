@@ -2,40 +2,36 @@
 
 # SMMly
 
-**Your SMM panel. Your services. Your business.**
+**Your SMM business, in one panel.**
 
-A self-hosted social media marketing panel for creators, agencies, operators and resellers.
+A social media marketing panel for creators, agencies, businesses and resellers.
 
-[Website](https://smmly.co) · [Product docs](https://github.com/smmly-co/docs) · [API reference](https://github.com/smmly-co/smmpanel-api)
+[Website](https://smmly.co) · [Documentation](https://github.com/smmly-co/docs) · [API](https://github.com/smmly-co/smmpanel-api)
 
 </div>
 
 ---
 
-## One panel for your SMM operations
+## Everything your SMM business needs
 
-SMMly brings the core workflows of a social media marketing business into one place:
+SMMly brings the core workflows of an SMM business together:
 
-- **Service catalogue** — organize services, categories, rates and order requirements.
-- **Order management** — place orders and follow their delivery status.
-- **Account balance** — manage prepaid customer balances and transaction history.
-- **Provider connections** — connect upstream services to your catalogue.
-- **Reseller integrations** — build around a familiar SMM V2-style API.
-- **Administration** — manage customers, services, orders, providers and support.
+- **Services** — explore social media services in one catalogue.
+- **Orders** — place orders and follow their progress.
+- **Balance** — manage account funds and order activity.
+- **Reselling** — build your own workflows around SMMly.
+- **Support** — get help with your account, orders and payments.
 
-SMMly is designed as a self-hosted panel that gives operators control over their customer-facing service business.
+Built for operators who want a dedicated panel for their social media marketing business.
 
-## Explore SMMly
+## Explore
 
+- [Visit SMMly](https://smmly.co)
 - [Product documentation](https://github.com/smmly-co/docs)
-- [API documentation and release status](https://github.com/smmly-co/smmpanel-api)
-- [Examples](https://github.com/smmly-co/examples)
-- [Telegram integration project](https://github.com/smmly-co/smmpanel-telegram-bot)
-
-> **API availability:** The SMMly API reference is currently a draft. The production API is not yet available for customer integrations. Follow the API repository for release updates.
+- [Developer resources](https://github.com/smmly-co/smmpanel-api)
 
 <div align="center">
 
-[Visit smmly.co](https://smmly.co)
+[Explore SMMly](https://smmly.co)
 
 </div>
