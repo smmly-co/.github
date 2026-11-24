@@ -7,7 +7,7 @@ This map records the repositories that currently exist in the SMMly organization
 | Repository | Visibility | Purpose | Current status |
 |---|---|---|---|
 | [smmpanel-api](https://github.com/smmly-co/smmpanel-api) | Public | API contract, reference documentation, and future client libraries | Initialized; API not released |
-| [smmpanel-telegrambot](https://github.com/smmly-co/smmpanel-telegrambot) | Public | Official Telegram integration project | Initialized; bot planned, not released |
+| [smmpanel-telegram-bot](https://github.com/smmly-co/smmpanel-telegram-bot) | Public | Official Telegram integration project | Initialized; bot planned, not released |
 | [docs](https://github.com/smmly-co/docs) | Public | Product and developer documentation | Initialized; documentation being built |
 | [examples](https://github.com/smmly-co/examples) | Public | Developer integration examples | Initialized; awaiting verified API contract |
 | [.github](https://github.com/smmly-co/.github) | Public | Organization profile and community health files | Active |
@@ -24,7 +24,7 @@ The application README identifies it as under security and reliability remediati
 
 The intended source of truth for the versioned external API contract, authentication, supported actions, request and response schemas, error handling, rate limits, and eventually SDKs. Publish supported details only after implementation and verification.
 
-### smmpanel-telegrambot
+### smmpanel-telegram-bot
 
 The home for a future official Telegram integration. It is currently a project placeholder, not a working bot. A release requires a verified API integration, secure token handling, authorization, abuse controls, tests, and setup documentation.
 
