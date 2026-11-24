@@ -1,39 +1,41 @@
 <h2 align="center">SMMly</h2>
 
-<p align="center"><strong>The self-hosted SMM panel for creators, agencies and resellers.</strong><br />
-A single-installation platform for service catalogues, prepaid wallets, order operations and reseller API workflows.</p>
+<p align="center"><strong>A self-hosted SMM panel for service businesses, agencies and resellers.</strong><br />
+A single-installation platform for service catalogues, customer orders, prepaid wallets and administration.</p>
 
 <p align="center">
   <a href="https://smmly.co">Website</a> ·
   <a href="https://github.com/smmly-co">GitHub organization</a> ·
-  <a href="https://github.com/smmly-co/docs">Developer documentation</a>
+  <a href="https://github.com/smmly-co/docs">Documentation</a>
 </p>
 
 ---
 
-### What SMMly does
+> **Development status:** SMMly is under active development and security/reliability remediation. It is not currently declared production-ready. The customer API is unavailable and has not been released.
 
-SMMly brings the operational workflows of a social media marketing business into one self-hosted panel.
+### Product scope
+
+SMMly is being built to bring the operational workflows of a social media marketing business into one self-hosted panel.
 
 - **Service catalogue** — manage social media services, categories, rates and order requirements.
-- **Customer orders** — place and track orders, with refill and cancellation workflows where supported.
+- **Customer orders** — place and track orders, with refill and cancellation workflows only where implemented and supported.
 - **Prepaid wallet** — manage customer funding, balances and transaction history.
-- **Provider connections** — connect upstream SMM providers through the established SMM V2 protocol.
-- **Reseller API** — enable programmatic ordering through customer API credentials.
-- **Support** — manage customer support through ticket workflows.
-- **Administration** — operate users, services, providers, orders, deposits, refunds, settings and support from one admin area.
+- **Provider connections** — connect upstream SMM providers through verified integrations.
+- **Reseller API** — planned programmatic ordering through customer API credentials; not released.
+- **Support** — customer support workflows.
+- **Administration** — manage users, services, providers, orders, deposits, refunds, settings and support.
 
 ### Platform
 
-SMMly is built as a conventional PHP application using PDO and MySQL/MariaDB. It is designed for self-hosted deployment on standard PHP hosting, including cPanel.
+The application is a conventional PHP application using PDO and MySQL/MariaDB, designed for self-hosted deployment on standard PHP hosting, including cPanel.
 
-SMMly is a single-installation, single-tenant SMM panel—not a hosted multi-tenant SaaS control plane or a generic marketplace.
+SMMly is intended as a single-installation, single-tenant SMM panel—not a hosted multi-tenant SaaS control plane or a generic marketplace.
 
 ### For developers
 
-SMMly intends to preserve established SMM V2 request and response compatibility. Public API reference material and client libraries will be released only after the corresponding integration surface is verified for external use.
+SMMly intends to preserve established SMM V2 request and response compatibility where verified. The customer API currently returns HTTP 503 and is not available for integration.
 
-See the [Developer Documentation](https://github.com/smmly-co/.github/tree/main/docs) for publication status. Do not rely on undocumented or unreleased endpoints.
+See the [API release status](https://github.com/smmly-co/smmpanel-api/blob/main/CONTRACT-STATUS.md) before planning an integration. Do not rely on undocumented or unreleased endpoints.
 
 ### Repositories
 
