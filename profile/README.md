@@ -6,7 +6,7 @@ A single-installation platform for service catalogues, prepaid wallets, order op
 <p align="center">
   <a href="https://smmly.co">Website</a> ·
   <a href="https://github.com/smmly-co">GitHub organization</a> ·
-  <a href="https://github.com/smmly-co/.github/tree/main/docs">Developer documentation</a>
+  <a href="https://github.com/smmly-co/docs">Developer documentation</a>
 </p>
 
 ---
