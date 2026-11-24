@@ -6,32 +6,32 @@
 
 A social media marketing panel for creators, agencies, businesses and resellers.
 
-[Website](https://smmly.co) · [Documentation](https://github.com/smmly-co/docs) · [API](https://github.com/smmly-co/smmpanel-api)
+[Website](https://smmly.co) · [Product guides](https://github.com/smmly-co/docs) · [Developer & API resources](https://github.com/smmly-co/smmpanel-api)
 
 </div>
 
 ---
 
-## Everything your SMM business needs
+## Social media marketing, organised
 
-SMMly brings the core workflows of an SMM business together:
+SMMly is designed to bring the everyday workflows of an SMM business into one platform.
 
-- **Services** — explore social media services in one catalogue.
-- **Orders** — place orders and follow their progress.
-- **Balance** — manage account funds and order activity.
-- **Reselling** — build your own workflows around SMMly.
-- **Support** — get help with your account, orders and payments.
+- **SMM services catalogue** — discover supported social media marketing services.
+- **Order management** — organise customer orders and follow order progress.
+- **Balance and payments** — review account funds and payment activity.
+- **Reseller workflows** — manage social media services for your own customers.
+- **SMM API integrations** — connect websites, reseller panels and business applications as API access becomes available.
+- **Bulk operations** — streamline multi-order workflows where supported.
+- **Referrals and partnerships** — explore partner-oriented growth opportunities as programmes become available.
+- **Order support** — find guidance for applicable partial orders, refills, cancellations and refunds.
 
-Built for operators who want a dedicated panel for their social media marketing business.
+Built for creators, agencies, digital service providers and SMM panel operators who want a dedicated platform for their social media marketing business.
 
-## Explore
+## Explore SMMly
 
-- [Visit SMMly](https://smmly.co)
-- [Product documentation](https://github.com/smmly-co/docs)
-- [Developer resources](https://github.com/smmly-co/smmpanel-api)
+- [Visit the SMMly website](https://smmly.co)
+- [Read product guides and FAQs](https://github.com/smmly-co/docs)
+- [Explore reseller information](https://github.com/smmly-co/docs/blob/main/resellers/overview.md)
+- [Visit developer and API resources](https://github.com/smmly-co/smmpanel-api)
 
-<div align="center">
-
-[Explore SMMly](https://smmly.co)
-
-</div>
+<sub>Feature availability, supported services, API access and programme terms are determined by the information published through SMMly.</sub>
